@@ -1,0 +1,98 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+    gap: 20px; /* Espaciado entre el mapa y las opciones */
+    width: 90%; /* Ajusta al 90% del ancho disponible */
+    height: calc(100% - 64px); /* Resta el tamaño de la barra de navegación */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño */
+    align-items: stretch; /* Asegura que los hijos ocupen toda la altura disponible */
+}
+
+/* Contenedor del mapa */
+.map-container {
+    flex-grow: 1; /* Permite que el mapa ocupe todo el espacio restante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent; /* Contenedor del mapa transparente */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container img {
+    width: 100%;
+    height: 100%; /* El mapa ocupa todo el alto disponible */
+    object-fit: contain; /* Ajuste proporcional */
+}
+
+/* Contenedor de las acciones */
+.actions-container {
+    flex: 0 0 auto; /* Se ajusta dinámicamente al contenido */
+    padding: 20px; /* Espaciado interno consistente */
+    background-color: #f9f9f9; /* Fondo blanco */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre botones y contenido interno */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los botones verticalmente */
+}
+
+/* Título "Acciones" */
+.actions-container h5 {
+    text-align: center; /* Centra el título */
+    font-weight: bold; /* Negritas */
+    margin: 0 0 10px 0; /* Sin márgenes laterales y pequeño margen inferior */
+    width: 100%;
+}
+
+/* Botones alineados */
+.action-btn {
+    width: 200px; /* Tamaño compacto */
+    height: 45px; /* Altura consistente */
+    font-size: 16px;
+    font-weight: bold;
+    color: black; /* Letras negras */
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid black; /* Borde negro */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: color 0.3s, border-color 0.3s; /* Transiciones suaves */
+    cursor: pointer;
+    text-align: center; /* Centra el texto */
+    line-height: 45px; /* Centra verticalmente el texto */
+}
+
+/* Efecto hover en los botones */
+.action-btn:hover {
+    color: #4caf50; /* Letras verdes */
+    background-color: transparent; /* Fondo permanece transparente */
+    border-color: #4caf50; /* Cambia el borde a verde */
+}
+
+/* Estilo de los formularios */
+.action-card {
+    display: none; /* Ocultar formularios por defecto */
+    padding: 15px; /* Espaciado moderado */
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px; /* Aumenta el tamaño del texto */
+    height: auto; /* Los formularios se ajustan al contenido */
+}
+
+/* Ajuste de las tarjetas activas */
+.action-card.active {
+    display: block; /* Solo se muestra el formulario activo */
+}

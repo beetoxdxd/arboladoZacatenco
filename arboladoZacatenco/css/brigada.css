@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    align-items: stretch;
+    padding-top: 10px; /* Espacio debajo de la nav bar */
+    width: 85%;
+}
+
+.map-container {
+    flex: 1;
+    overflow: hidden;
+}
+
+.map-container img {
+    width: 100%;
+    height: auto;
+}
+
+.actions-container {
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+}
+
+.action-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+    color: black;
+    margin: 5px 0;
+}
+
+.action-text:hover {
+    color: #4caf50;
+}
+
+.action-card {
+    display: none;
+    margin-top: 10px;
+}
+/* Título principal */
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4caf50; /* Verde similar al de la barra de navegación */
+    margin: 0;
+    padding-bottom: 1PX;
+}
+.dropdown-content {
+    background-color: white; /* Fondo blanco del dropdown */
+}
+
+.dropdown-content li > a, 
+.dropdown-content li > span {
+    color: black; /* Letras negras */
+    font-size: 1rem; /* Tamaño de fuente */
+}
+
+.dropdown-content li > a:hover, 
+.dropdown-content li > span:hover {
+    background-color: #f5f5f5; /* Fondo gris claro al pasar el mouse */
+    color: #4caf50; /* Cambia a verde al pasar el mouse */
+}
+.action-text.active {
+    color: #4caf50; /* Verde para la acción seleccionada */
+    font-weight: bold;
+}

@@ -1,0 +1,6 @@
+.dropdown-content li > a, 
+.dropdown-content li > span {
+    color: black; /* Letras negras */
+    font-size: 1rem; /* Tamaño de fuente */
+}
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arbolado Zacatenco</title>
+        <link rel="icon" href="../img/tree-fill.svg">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../css/brigada.css">
+    </head>
+
+    <body>
+        <!-- Nav Bar -->
+        <nav class="light-green darken-1">
+            <div class="navbar-wrapper">
+                <div class="nav-wrapper container">
+                    <a href="../index.php" class="brand-logo"><i class="bi bi-house-door-fill"></i></a>
+                    <ul class="right">
+                    <li> <!-- class ="active"-->
+                        <a href="#" class="dropdown-trigger" data-target="reportes"><b>Reportes<i class="material-icons right">arrow_drop_down</i></b></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#!" data-target="dropdown1"><b>Brigadas</b><i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#" data-target="censos"><b>Censos</b><i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                    <li>
+                        <a class="dropdown-trigger" href="#" data-target="coordinador"><b>Coordinador</b><i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Dropdown options -->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="../brigadas/b.html">Voluntarios</a></li>
+            <li><a href="#!">Asignar reporte</a></li>
+            <li><a href="../brigadas/reporteIncidentes.php">Reporte de incidentes</a></li>
+            <li><a href="../reportes/monitoreoReporte.php">Monitoreo de actividades</a></li>
+        </ul>
+        
+            <!-- Dropdown options -->
+        <ul id="reportes" class="dropdown-content">
+            <li><a href="../reportes/reporte.php">Levantar reporte</a></li>
+            <li><a href="../reportes/seguimiento_reporte.php">Consultar reportes</a></li>
+            <li><a href="../reportes/modificar_estado.php">Modificar estado de reportes</a></li>
+        </ul> 
+        
+        <ul id="censos" class="dropdown-content">
+            <li><a href="../censos/censo_arbol.php">Registrar arbol</a></li>
+            <li><a href="../censos/consultar_censo.php">Consultar censos</a></li>
+            <li><a href="../censos/modificar_censo.php">Actualizar censo</a></li>
+        </ul>
+        
+        <ul id="coordinador" class="dropdown-content">
+            <li><a href="../coordinador/registroCoordinador.php">Registrar coordinadores</a></li>
+            <li><a href="../coordinador/registroBrigadistas.php">Registrar brigadistas</a></li>
+        </ul>
+
+        <!-- Título principal -->
+        <div class="page-title">
+            <h1>BRIGADAS</h1>
+        </div>
+
+        <!-- Main content -->
+        <div class="container main-container">
+            <!-- Mapa -->
+            <div class="map-container">
+                <img src="../img/mapaN.png" alt="Mapa" class="responsive-img">
+            </div>
+
+            <!-- Acciones -->
+            <div class="actions-container">
+                <h5 class="center-align"><b>Acciones</b></h5>
+                <p class="action-text" onclick="showAddMember()">Añadir miembro a brigada</p>
+                <p class="action-text" onclick="showConsultMember()">Consultar brigadista</p>
+                <p class="action-text" onclick="showConsultBrigade()">Consultar brigada</p>
+
+                <!-- Formularios dinámicos -->
+                <form id="addMemberForm" class="card action-card"
+                    action="register_brigadista.php" method="post">
+                    <div class="card-content">
+                        <span class="card-title">Añadir miembro a brigada</span>
+                        <div class="input-field">
+                            <input id="nombre" name="nombre" type="text"
+                                required>
+                            <label for="nombre">Nombre(s)</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="apellidos" name="apellidos" type="text"
+                                required>
+                            <label for="apellidos">Apellidos</label>
+                        </div>
+                        <div class="input-field">
+                            <input id="correo" name="correo" type="email"
+                                required>
+                            <label for="correo">Correo</label>
+                        </div>
+                        <div class="input-field">
+                            <select id="seccion" name="seccion" required>
+                                <option value disabled selected>Selecciona una sección</option>
+                                <option value="BIBLIOTECA">BIBLIOTECA</option>
+                                <option value="CENLEX">CENLEX</option>
+                                <option value="DIRECCIÓN GENERAL">DIRECCIÓN GENERAL</option>
+                                <option value="ENCB">ENCB</option>
+                                <option value="ESCOM/CIC">ESCOM/CIC</option>
+                                <option value="ESFM">ESFM</option>
+                                <option value="ESIME">ESIA</option>
+                                <option value="ESIME">ESIME</option>
+                                <option value="ESIQIE">ESIQIE</option>
+                                <option value="ESIT">ESIT</option>
+                                <option value="ESTADIO WILFRIDO MASSIEU">ESTADIO WILFRIDO MASSIEU</option>
+                                <option value="UPDCE">UPDCE</option>
+                                <option value="VERDE 1">VERDE 1</option>
+                            </select>
+                            <label>Sección</label>
+                        </div>
+
+                        <button type="submit" class="btn light-green darken-1"
+                            onclick="validateAddMember()">Registrar</button>
+                    </div>
+                </form>
+
+                <form id="consultMemberForm" class="card action-card"
+                    action="consult_brigadista.php" method="post">
+                    <div class="card-content">
+                        <span class="card-title">Consultar brigadista</span>
+                        <div class="input-field">
+                            <input id="consultaCorreo" name="consultaCorreo" type="email" required>
+                            <label for="consultaCorreo">Correo</label>
+                        </div>
+                        <button type="submit" class="btn light-green darken-1"
+                            onclick="consultMember()">Buscar</button>
+                    </div>
+                </form>
+
+                <form id="consultBrigadeForm" class="card action-card"
+                    action="consult_brigada.php" method="post">
+                    <div class="card-content">
+                        <span class="card-title">Consultar brigada</span>
+                        <div class="input-field">
+                            <select id="consultaSeccion" name="consultaSeccion" required>
+                                <option value disabled selected>Selecciona una sección</option>
+                                <option value="BIBLIOTECA">BIBLIOTECA</option>
+                                <option value="CENLEX">CENLEX</option>
+                                <option value="DIRECCIÓN GENERAL">DIRECCIÓN GENERAL</option>
+                                <option value="ENCB">ENCB</option>
+                                <option value="ESCOM/CIC">ESCOM/CIC</option>
+                                <option value="ESFM">ESFM</option>
+                                <option value="ESIME">ESIA</option>
+                                <option value="ESIME">ESIME</option>
+                                <option value="ESIQIE">ESIQIE</option>
+                                <option value="ESIT">ESIT</option>
+                                <option value="ESTADIO WILFRIDO MASSIEU">ESTADIO WILFRIDO MASSIEU</option>
+                                <option value="UPDCE">UPDCE</option>
+                                <option value="VERDE 1">VERDE 1</option>
+                            </select>
+                            <label>Sección</label>
+                        </div>
+                        <button type="submit" class="btn light-green darken-1"
+                            onclick="consultBrigade()">Buscar</button>
+                    </div>
+                </form>
+            </div>
+
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+            <script src="../js/brigada.js"></script>
+            <!-- Asegurar que los scripts PHP estén accesibles -->
+            <form id="registerForm" action="register_brigadista.php"
+                method="POST" style="display:none;"></form>
+            <form id="consultMemberForm" action="consult_brigadista.php"
+                method="POST" style="display:none;"></form>
+            <form id="consultBrigadeForm" action="consult_brigada.php"
+                method="POST" style="display:none;"></form>
+
+        </body>
+
+    </html>

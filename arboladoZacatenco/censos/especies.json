@@ -1,0 +1,313 @@
+[
+    {
+        "nombre_comun": "Chirimoya",
+        "nombre_cientifico": "Annona cherimola"
+    },
+    {
+        "nombre_comun": "Tuya asiática",
+        "nombre_cientifico": "Platycladus orientalis"
+    },
+    {
+        "nombre_comun": "Teotlate",
+        "nombre_cientifico": "Hesperocyparis benthamii"
+    },
+    {
+        "nombre_comun": "Ciprés de Monterrey",
+        "nombre_cientifico": "Hesperocyparis macrocarpa"
+    },
+    {
+        "nombre_comun": "Sabino",
+        "nombre_cientifico": "Juniperus deppeana"
+    },
+    {
+        "nombre_comun": "Falso Ciprés",
+        "nombre_cientifico": "Chamaecyparis lawsoniana"
+    },
+    {
+        "nombre_comun": "Ahuehuete",
+        "nombre_cientifico": "Taxodium mucronatum"
+    },
+    {
+        "nombre_comun": "Pino Azul",
+        "nombre_cientifico": "Pinus maximartinezii"
+    },
+    {
+        "nombre_comun": "Pino Piñonero",
+        "nombre_cientifico": "Pinus cembroides"
+    },
+    {
+        "nombre_comun": "Pino Ayacahuite",
+        "nombre_cientifico": "Pinus ayacahuite"
+    },
+    {
+        "nombre_comun": "Pino Azteca",
+        "nombre_cientifico": "Pinus teocote"
+    },
+    {
+        "nombre_comun": "Pino Triste",
+        "nombre_cientifico": "Pinus lumholtzii"
+    },
+    {
+        "nombre_comun": "Pino Chimonque",
+        "nombre_cientifico": "Pinus leiophylla"
+    },
+    {
+        "nombre_comun": "Pino Chamaite",
+        "nombre_cientifico": "Pinus montezumae"
+    },
+    {
+        "nombre_comun": "Ocote Colorado",
+        "nombre_cientifico": "Pinus patula"
+    },
+    {
+        "nombre_comun": "Pino de Monterrey",
+        "nombre_cientifico": "Pinus radiata"
+    },
+    {
+        "nombre_comun": "Araucaria de Norfolk",
+        "nombre_cientifico": "Araucaria heterophylla"
+    },
+    {
+        "nombre_comun": "Ginkgo",
+        "nombre_cientifico": "Ginkgo biloba"
+    },
+    {
+        "nombre_comun": "Retama Africana",
+        "nombre_cientifico": "Senna didymobotrya"
+    },
+    {
+        "nombre_comun": "Retama",
+        "nombre_cientifico": "Senna multiglandulosa"
+    },
+    {
+        "nombre_comun": "Framboyán de Madagascar",
+        "nombre_cientifico": "Delonix regia"
+    },
+    {
+        "nombre_comun": "Acacia Mimosa Australiana",
+        "nombre_cientifico": "Acacia baileyana"
+    },
+    {
+        "nombre_comun": "Acacia Plateada",
+        "nombre_cientifico": "Acacia retinodes"
+    },
+    {
+        "nombre_comun": "Acacia Negra de Tasmania",
+        "nombre_cientifico": "Acacia melanoxylon"
+    },
+    {
+        "nombre_comun": "Colorín de Seda",
+        "nombre_cientifico": "Erythrina crista-galli"
+    },
+    {
+        "nombre_comun": "Colorín",
+        "nombre_cientifico": "Erythrina americana"
+    },
+    {
+        "nombre_comun": "Colorín Yucateco",
+        "nombre_cientifico": "Erythrina standleyana"
+    },
+    {
+        "nombre_comun": "Palo Azul",
+        "nombre_cientifico": "Eysenhardtia polystachya"
+    },
+    {
+        "nombre_comun": "Árbol Pagoda Asiático",
+        "nombre_cientifico": "Styphnolobium japonicum"
+    },
+    {
+        "nombre_comun": "Pata de Vaca Asiática",
+        "nombre_cientifico": "Bauhinia variegata"
+    },
+    {
+        "nombre_comun": "Tejocote",
+        "nombre_cientifico": "Crataegus mexicana"
+    },
+    {
+        "nombre_comun": "Manzana Agria",
+        "nombre_cientifico": "Malus domestica"
+    },
+    {
+        "nombre_comun": "Peral",
+        "nombre_cientifico": "Pyrus communis"
+    },
+    {
+        "nombre_comun": "Níspero Chino",
+        "nombre_cientifico": "Eriobotrya japonica"
+    },
+    {
+        "nombre_comun": "Capulín",
+        "nombre_cientifico": "Prunus serotina"
+    },
+    {
+        "nombre_comun": "Ciruelo",
+        "nombre_cientifico": "Prunus domestica"
+    },
+    {
+        "nombre_comun": "Durazno",
+        "nombre_cientifico": "Prunus persica"
+    },
+    {
+        "nombre_comun": "Hule Asiático",
+        "nombre_cientifico": "Ficus elastica"
+    },
+    {
+        "nombre_comun": "Higuera",
+        "nombre_cientifico": "Ficus carica"
+    },
+    {
+        "nombre_comun": "Árbol Lira",
+        "nombre_cientifico": "Ficus lyrata"
+    },
+    {
+        "nombre_comun": "Laurel de la India",
+        "nombre_cientifico": "Ficus benjamina"
+    },
+    {
+        "nombre_comun": "Morera Asiática",
+        "nombre_cientifico": "Morus alba"
+    },
+    {
+        "nombre_comun": "Olmo Chino",
+        "nombre_cientifico": "Ulmus parvifolia"
+    },
+    {
+        "nombre_comun": "Almez del Mediterráneo",
+        "nombre_cientifico": "Celtis australis"
+    },
+
+    
+    
+    {
+        "nombre_comun": "Negundo",
+        "nombre_cientifico": "Acer negundo"
+    },
+    {
+        "nombre_comun": "Castaño de Indias",
+        "nombre_cientifico": "Aesculus hippocastanum"
+    },
+    {
+        "nombre_comun": "Tepozán blanco",
+        "nombre_cientifico": "Buddleja cordata"
+    },
+    {
+        "nombre_comun": "Escobillón rojo",
+        "nombre_cientifico": "Callistemon citrinus"
+    },
+    {
+        "nombre_comun": "Casuarina",
+        "nombre_cientifico": "Casuarina equisetifolia"
+    },
+    {
+        "nombre_comun": "Cedro blanco",
+        "nombre_cientifico": "Hesperocyparis lusitanica"
+    },
+    {
+        "nombre_comun": "Ciprés mediterráneo",
+        "nombre_cientifico": "Cupressus sempervirens"
+    },
+    {
+        "nombre_comun": "Árbol de manitas",
+        "nombre_cientifico": "Chiranthodendron pentadactylon"
+    },
+    {
+        "nombre_comun": "Dombeya",
+        "nombre_cientifico": "Dombeya wallichii"
+    },
+    {
+        "nombre_comun": "Mandimbo",
+        "nombre_cientifico": "Ehretia tinifolia"
+    },
+    {
+        "nombre_comun": "Eucalipto rojo",
+        "nombre_cientifico": "Eucalyptus camaldulensis"
+    },
+    {
+        "nombre_comun": "Eucalipto azul",
+        "nombre_cientifico": "Eucalyptus globulus"
+    },
+    {
+        "nombre_comun": "Fresno",
+        "nombre_cientifico": "Fraxinus uhdei"
+    },
+    {
+        "nombre_comun": "Roble australiano",
+        "nombre_cientifico": "Grevillea robusta"
+    },
+    {
+        "nombre_comun": "Jacaranda",
+        "nombre_cientifico": "Jacaranda mimosifolia"
+    },
+    {
+        "nombre_comun": "Nogal americano",
+        "nombre_cientifico": "Juglans nigra"
+    },
+    {
+        "nombre_comun": "Árbol de Júpiter",
+        "nombre_cientifico": "Lagerstroemia indica"
+    },
+    {
+        "nombre_comun": "Trueno",
+        "nombre_cientifico": "Ligustrum lucidum"
+    },
+    {
+        "nombre_comun": "Liquidámbar",
+        "nombre_cientifico": "Liquidambar styraciflua"
+    },
+    {
+        "nombre_comun": "Magnolia Común",
+        "nombre_cientifico": "Magnolia grandiflora"
+    },
+    {
+        "nombre_comun": "Falso plátano",
+        "nombre_cientifico": "Ensete ventricosum"
+    },
+    {
+        "nombre_comun": "Palma canaria",
+        "nombre_cientifico": "Phoenix canariensis"
+    },
+    {
+        "nombre_comun": "Ombú",
+        "nombre_cientifico": "Phytolacca dioica"
+    },
+    {
+        "nombre_comun": "Álamo blanco",
+        "nombre_cientifico": "Platanus mexicana"
+    },
+    {
+        "nombre_comun": "Sicomoro",
+        "nombre_cientifico": "Platanus hybrida"
+    },
+    {
+        "nombre_comun": "Álamo blanco, álamo plateado",
+        "nombre_cientifico": "Populus alba"
+    },
+    {
+        "nombre_comun": "Chopo americano",
+        "nombre_cientifico": "Populus deltoides"
+    },
+    {
+        "nombre_comun": "Encino quiebra hacha",
+        "nombre_cientifico": "Quercus rugosa"
+    },
+    {
+        "nombre_comun": "Sauce llorón",
+        "nombre_cientifico": "Salix babylonica"
+    },
+    {
+        "nombre_comun": "Ahuejote",
+        "nombre_cientifico": "Salix bonplandiana"
+    },
+    {
+        "nombre_comun": "Árbol pulpo",
+        "nombre_cientifico": "Schefflera actinophylla"
+    },
+    {
+        "nombre_comun": "Pirú",
+        "nombre_cientifico": "Schinus molle"
+    },
+    {
+        "nombre_comun": "Pimentero brasileño",
+        "nombre_cientifico": "Schinus terebinthifolius"
+    }
+]
